@@ -1,0 +1,27 @@
+{
+    "name": "readmo",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/LinarKhIl/readMo.git"
+    },
+    "keywords": [
+        "books",
+        "online"
+    ],
+    "author": "LinarKhil",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/LinarKhIl/readMo/issues"
+    },
+    "homepage": "https://github.com/LinarKhIl/readMo#readme",
+    "dependencies": {
+        "express": "^4.16.3",
+        "passport": "^0.4.0"
+    }
+}
