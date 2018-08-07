@@ -3,17 +3,60 @@
 
 <head>
     <title>readMo</title>
-    <link rel="stylesheet" href="style.css">
+<style>
+body
+{
+    height: 100%;
+    background: linear-gradient(to bottom right, lightblue, white);
+    background-center: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#box
+{
+    width: 420px;
+    height: 200px;
+    padding: 15px;
+    border: 0px solid #000000;
+    margin: 8%;
+}
+#login
+{
+	display: block;
+	border: #ccc 1px solid;
+	border-left: #8cffff 7px solid;
+	border-bottom: #ccc 2px solid;
+	padding: 10px;
+	width:250px;
+	color:#0AAAAA;
+	margin-top:35px;
+  	font-size:1em;
+	font-color: black;
+  	border-radius:2px;
+
+}
+#button
+{
+	margin-top: 25px;
+	height: 30px;
+	width: 40%;
+    	background: lightblue;
+	font-color: black;
+	border-radius: 4px;
+	border: #ccc 0px solid;
+}
+</style>
+
 </head>
 
 <body>
     <center>
 	<div id="box">
         <form action="/login">
-            <input id="login" type="text" name="login" value="Your login">
-            <br> <input id="login" type="text" name="password" value="Your password">
+            <input id="login" type="text" name="login" placeholder="Your login">
+            <br> <input id="login" type="password" name="password" placeholder="Your password">
             <br>
-            <input id="button" type="submit" value="Submit">
+            <input id="button" type="submit" value="Login">
         </form>
     </center>
 </body>
